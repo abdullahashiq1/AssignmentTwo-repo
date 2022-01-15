@@ -11,6 +11,13 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
 p {
     font-size: 19px;
     margin-bottom: 30px;
@@ -34,7 +41,8 @@ p {
     display: flex;
     justify-content: space-between;
     margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-right: 30px;
 }
 
 /* nav-bar style  */
@@ -73,9 +81,56 @@ a {
 .container .influencer {
     width: 50%;
 }
+
 .section img {
     border-radius: 50%;
     width: 70%;
     margin-left: 133px;
     border: 5px solid rgb(226, 216, 216);
+}
+
+/* main section style  */
+.grid-concept {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10px; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.grid-box {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 330px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #AAAAAA;
+    
+}
+
+.grid-box img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+span {
+    font-size: 12px;
+    display: inline;
+    /* margin-left: 15px; */
+}
+
+.transport {
+    font-size: 12px;
+}
+
+.filled {
+    color: orange;
+}
+
+.doller {
+    font-size: 24px;
 }
