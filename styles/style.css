@@ -6,6 +6,28 @@ body {
     font-family: 'Lora', serif;
 }
 
+h1 {
+    font-size: 39px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 196px;
+    height: 44px;
+    Padding: 10px 35px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    word-spacing: 7px;
+}
+
 /* section container style  */
 
 .container {
@@ -16,6 +38,7 @@ body {
 }
 
 /* nav-bar style  */
+
 .nav-bar ul {
     display: flex;
     margin-right: 67px;
@@ -44,4 +67,15 @@ a {
 .logo img {
     width: 57px;
     height: 47px;
+}
+
+/* header section style  */
+.container .influencer {
+    width: 50%;
+}
+.section img {
+    border-radius: 50%;
+    width: 70%;
+    margin-left: 133px;
+    border: 5px solid rgb(226, 216, 216);
 }
