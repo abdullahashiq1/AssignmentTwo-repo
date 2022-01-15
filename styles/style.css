@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat&family=Poppins:wght@200;300;400;500;700;800&family=Roboto:wght@500;700;900&display=swap');
+
+/* common style  */
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+/* section container style  */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+/* nav-bar style  */
+.nav-bar ul {
+    display: flex;
+    margin-right: 67px;
+}
+
+.nav-bar ul li {
+    margin-right: 45px;
+}
+
+.fa-search {
+    width: 0px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 62, 62);
+    font-size: 21px;
+}
+
+.logo img {
+    width: 57px;
+    height: 47px;
+}
