@@ -18,6 +18,11 @@ h2 {
 
 }
 
+h3 {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
 p {
     font-size: 19px;
     margin-bottom: 30px;
@@ -102,10 +107,11 @@ a {
     background-color: #ffffff;
     margin: 10px;
     width: 330px;
+    height: 476px;
     margin-left: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 15px #AAAAAA;
-    
+
 }
 
 .grid-box img {
@@ -120,7 +126,17 @@ a {
 span {
     font-size: 12px;
     display: inline;
-    /* margin-left: 15px; */
+    margin-top: 25px;
+}
+
+.see {
+    margin-left: 54%;
+    color: #E02C6D;
+    font-weight: bold;
+}
+.see i {
+    color: #E02C6D;
+    margin-left: 8px;
 }
 
 .transport {
@@ -133,4 +149,40 @@ span {
 
 .doller {
     font-size: 24px;
+    margin-left: 15px;
+
+}
+
+
+/* footer part style  */
+footer {
+    background-color: #120E43;
+    padding: 15px;
+    line-height: 0.3;
+    margin-top: 85px;
+}
+
+h4 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+footer p  {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.fab {
+    color: #eeeeee;
+    margin-left: 12px;
+    font-size: 23px;
+
+}
+
+.icon i {
+    justify-content: center;
 }
